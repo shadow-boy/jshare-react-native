@@ -62,6 +62,8 @@ typedef void(^JSHARESocialHandler)(JSHARESocialUserInfo *userInfo,NSError *error
 
 @interface JSHARELaunchConfig : NSObject
 
+@property (nonatomic, copy) NSString *universalLink;
+
 /**
  appKey 一个 JIGUANG 应用必须的,唯一的标识. 请参考 JIGUANG 相关说明文档来获取这个标识。
  */
